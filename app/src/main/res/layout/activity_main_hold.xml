@@ -10,7 +10,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="rtc.surangrat.ratchanok.hangmanword.MainHold"
-    android:background="@drawable/index1">
+    android:background="@drawable/baba">
 
     <LinearLayout
         android:orientation="vertical"
@@ -20,26 +20,29 @@
         android:layout_centerHorizontal="true">
 
         <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/easysu"
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            app:srcCompat="@drawable/ee"
             android:id="@+id/imageView3"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:layout_gravity="center_horizontal" />
 
         <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/normalsu"
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            app:srcCompat="@drawable/nn"
             android:id="@+id/imageView4"
             android:layout_weight="1"
             android:layout_marginTop="15dp"
-            android:layout_marginBottom="15dp" />
+            android:layout_marginBottom="15dp"
+            android:layout_gravity="center_horizontal" />
 
         <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/hardsu"
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            app:srcCompat="@drawable/hh"
             android:id="@+id/imageView5"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:layout_gravity="center_horizontal" />
     </LinearLayout>
 </RelativeLayout>
